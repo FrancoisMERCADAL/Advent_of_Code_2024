@@ -4,7 +4,7 @@ FILE_NAME = "location_ids.txt"
 def sum_distances(file):
     left_part = []
     right_part = []
-    sum_ = 0
+    distances = 0
     for line in file:
         line = line.strip().split("   ")
         left_part.append(int(line[0]))
@@ -12,8 +12,8 @@ def sum_distances(file):
     left_part.sort()
     right_part.sort()
     for nb_left, nb_right in zip(left_part,right_part):
-        sum_ += abs(nb_left-nb_right)
-    return sum_
+        distances += abs(nb_left-nb_right)
+    return distances
 
 def historian_hysteria_part1():
     file = open(FILE_NAME, "r")
