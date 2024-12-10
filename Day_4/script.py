@@ -1,7 +1,7 @@
 FILE_NAME = "words_input.txt"
-WORD_TO_SEARCH = 'XMAS'
 
 # PART 1
+WORD_TO_SEARCH = 'XMAS'
 def horizontal_search(lines, line, col):
     nb = 0
     # Forward
@@ -85,10 +85,11 @@ def ceres_search_part2():
     file.close()
     return nb_words_found
 
-# Part 1
+### TEST AREA
+# PART 1
 print(ceres_search_part1())
 # Output: 2507
 
-# Part 2
+# PART 2
 print(ceres_search_part2())
 # Output: 1969

@@ -42,10 +42,10 @@ def historian_hysteria_part2():
     return similarity
 
 ### TEST AREA
-# Part 1
+# PART 1
 print(historian_hysteria_part1())
 # Output: 1110981
 
-# Part 2
+# PART 2
 print(historian_hysteria_part2())
 # Output: 24869388

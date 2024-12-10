@@ -47,10 +47,11 @@ def mull_it_over_part2():
     file.close()
     return mul_sum
 
-# Part 1
+### TEST AREA
+# PART 1
 print(mull_it_over_part1())
 # Output: 184576302
 
-# Part 2
+# PART 2
 print(mull_it_over_part2())
 # Output: 118173507

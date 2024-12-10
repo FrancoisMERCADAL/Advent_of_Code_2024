@@ -24,7 +24,7 @@ def red_nosed_reports_part1():
     file.close()
     return safe_reports
 
-# Part 2
+# PART 2
 def find_safe_reports_2(file):
     
     safe_reports = 0
@@ -71,10 +71,10 @@ def red_nosed_reports_part2():
     return safe_reports
 
 ### TEST AREA
-# Part 1
+# PART 1
 print(red_nosed_reports_part1())
 # Output: 502
 
-# Part 2
+# PART 2
 print(red_nosed_reports_part2())
 # Output: 544
