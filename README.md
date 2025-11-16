@@ -1,5 +1,5 @@
 # Advent_of_Code_2024
-## Stars collected : 15
+## Stars collected : 17
 * Day 1: https://adventofcode.com/2024/day/1 (2*)
 * Day 2: https://adventofcode.com/2024/day/2 (2*)
 * Day 3: https://adventofcode.com/2024/day/3 (2*)
@@ -9,3 +9,4 @@
 * Day 7: https://adventofcode.com/2024/day/7 (2*)
 * Day 8: https://adventofcode.com/2024/day/8 (0*)
 * Day 9: https://adventofcode.com/2024/day/9 (2*)
+* Day 10: https://adventofcode.com/2024/day/10 (2*)
